@@ -1,0 +1,12 @@
+# Compile of decodBCD7seg.vhd was successful.
+# Compile of tb_decodbcd7seg.vhd failed with 1 errors.
+# Compile of tb_decodbcd7seg.vhd failed with 2 errors.
+# Compile of tb_decodbcd7seg.vhd failed with 2 errors.
+# Compile of tb_decodbcd7seg.vhd was successful.
+vsim work.tb_decodbcd7seg
+# vsim work.tb_decodbcd7seg 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_decodbcd7seg(test)
+# Loading work.decodbcd7seg(rtl)
