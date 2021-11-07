@@ -27,14 +27,14 @@ Z7 !s110 1636318488
 !i10b 1
 Z8 !s108 1636318488.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_32_conf.vhd|
-!s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_32_conf.vhd|
+Z10 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_32_conf.vhd|
 !i113 1
-Z10 o-work work -2002 -explicit
-Z11 tExplicit 1 CvgOpt 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
 Artl
 R1
 R2
-DEx4 work 10 na_32_conf 0 22 6TmWbe@BXIOE=aIX=5JPT2
+Z13 DEx4 work 10 na_32_conf 0 22 6TmWbe@BXIOE=aIX=5JPT2
 !i122 44
 l21
 L15 33
@@ -46,40 +46,40 @@ R7
 !i10b 1
 R8
 R9
-Z12 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_32_conf.vhd|
-!i113 1
 R10
+!i113 1
 R11
+R12
 Ena_4_conf
-Z13 w1636311299
-Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z14 w1636311299
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R1
 R2
 !i122 37
 R3
-Z16 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_4_conf.vhd
-Z17 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_4_conf.vhd
+Z17 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_4_conf.vhd
+Z18 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_4_conf.vhd
 l0
 L17 1
 VmgZmZlIS_QS?g<DC9SbK00
 !s100 b:1Q6lRbJmFolFb[`e<kz3
 R6
 32
-Z18 !s110 1636311303
+Z19 !s110 1636311303
 !i10b 1
-Z19 !s108 1636311302.000000
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_4_conf.vhd|
-Z21 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_4_conf.vhd|
+Z20 !s108 1636311302.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_4_conf.vhd|
+Z22 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_4_conf.vhd|
 !i113 1
-R10
 R11
+R12
 Artl
-R14
 R15
+R16
 R1
 R2
-Z22 DEx4 work 9 na_4_conf 0 22 mgZmZlIS_QS?g<DC9SbK00
+Z23 DEx4 work 9 na_4_conf 0 22 mgZmZlIS_QS?g<DC9SbK00
 !i122 37
 l29
 L24 22
@@ -87,42 +87,84 @@ V3[jNU=^K;a>IzLK;Coa2D1
 !s100 7XS34YDXA5XZA]MKXgJh90
 R6
 32
-R18
-!i10b 1
 R19
+!i10b 1
 R20
 R21
+R22
 !i113 1
-R10
 R11
+R12
+Etb_na_32_conf
+Z24 w1636326062
+R1
+R2
+!i122 48
+R3
+Z25 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/tb_NA_32_conf.vhd
+Z26 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/tb_NA_32_conf.vhd
+l0
+L5 1
+VD3DKShhYkf6B7X4^kKC>Q2
+!s100 UKIoHGm;=<Y_EnNDj24_K1
+R6
+32
+Z27 !s110 1636326066
+!i10b 1
+Z28 !s108 1636326066.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/tb_NA_32_conf.vhd|
+Z30 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/tb_NA_32_conf.vhd|
+!i113 1
+R11
+R12
+Atest
+R13
+R1
+R2
+Z31 DEx4 work 13 tb_na_32_conf 0 22 D3DKShhYkf6B7X4^kKC>Q2
+!i122 48
+l16
+L8 47
+V`]IjKIk@c@6lco?a2H:W?3
+!s100 RiGD?k0_4YiYbXg=i;C:U2
+R6
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R11
+R12
 Etb_na_4_conf
-Z23 w1636311559
-R14
+Z32 w1636311559
 R15
+R16
 R1
 R2
 !i122 42
 R3
-Z24 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/tb_NA_4_conf.vhd
-Z25 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/tb_NA_4_conf.vhd
+Z33 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/tb_NA_4_conf.vhd
+Z34 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/tb_NA_4_conf.vhd
 l0
 L6 1
 VGziVA<f^MKVFf>XmSg2@K2
 !s100 zF_]]1ZnX3`kLTOEHIWHe2
 R6
 32
-Z26 !s110 1636311562
+Z35 !s110 1636311562
 !i10b 1
-Z27 !s108 1636311562.000000
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/tb_NA_4_conf.vhd|
-Z29 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/tb_NA_4_conf.vhd|
+Z36 !s108 1636311562.000000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/tb_NA_4_conf.vhd|
+Z38 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/tb_NA_4_conf.vhd|
 !i113 1
-R10
 R11
+R12
 Atest
-R22
-R14
+R23
 R15
+R16
 R1
 R2
 DEx4 work 12 tb_na_4_conf 0 22 GziVA<f^MKVFf>XmSg2@K2
@@ -133,11 +175,11 @@ Vmg1bUncNKHX::;?WighBR1
 !s100 FcK8`g78?AQ;8_6DR95?E0
 R6
 32
-R26
+R35
 !i10b 1
-R27
-R28
-R29
+R36
+R37
+R38
 !i113 1
-R10
 R11
+R12

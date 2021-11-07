@@ -1,4 +1,23 @@
-/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_4_conf.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_4_conf.vhd
+/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_32_conf.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_32_conf.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity NA_32_conf
+-- Compiling architecture rtl of NA_32_conf
+
+} {} {}} /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/tb_NA_4_conf.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/tb_NA_4_conf.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_NA_4_conf
+-- Compiling architecture test of tb_NA_4_conf
+-- Loading entity NA_4_conf
+
+} {} {}} /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_4_conf.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9/hdl/NA_4_conf.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO

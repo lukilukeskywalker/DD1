@@ -39,7 +39,6 @@ begin
 	wait until clk'event and clk ='1';
 	an_rst<='1';
 	LOAD <= '1';
-	wait until clk'event and clk ='1';--En este momento el tick ni si quiera  inicializado xD
 	wait until clk'event and clk ='1';
 	LOAD<='0';
 	nENA<='1';

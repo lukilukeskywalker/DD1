@@ -441,3 +441,27 @@ run
 #    Time: 0 ps  Iteration: 1  Instance: /tb_na_4_conf/dut
 # Compile of NA_32_conf.vhd failed with 2 errors.
 # Compile of NA_32_conf.vhd was successful.
+# Compile of tb_NA_32_conf.vhd failed with 2 errors.
+# Compile of tb_NA_32_conf.vhd was successful with warnings.
+vsim work.tb_na_32_conf
+# End time: 23:57:21 on Nov 07,2021, Elapsed time: 5:06:16
+# Errors: 0, Warnings: 7
+# vsim work.tb_na_32_conf 
+# Start time: 23:57:21 on Nov 07,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_na_32_conf(test)
+# Loading work.na_32_conf(rtl)
+add wave -position insertpoint sim:/tb_na_32_conf/dut/*
+run
+# Compile of tb_NA_32_conf.vhd was successful with warnings.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_na_32_conf(test)
+run
+# Compile of tb_NA_32_conf.vhd was successful with warnings.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_na_32_conf(test)
+run
