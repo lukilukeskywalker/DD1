@@ -1,0 +1,272 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3
+Econformador
+Z0 w1633647872
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 31
+Z3 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4
+Z4 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/hdl/conformador.vhd
+Z5 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/hdl/conformador.vhd
+l0
+L8 1
+VMhofLhZRlf@g>zV>f43^N1
+!s100 o9OSOaORc0g_j3HV>HO:00
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1633647876
+!i10b 1
+Z8 !s108 1633647876.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/hdl/conformador.vhd|
+Z10 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/hdl/conformador.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+Z13 DEx4 work 11 conformador 0 22 MhofLhZRlf@g>zV>f43^N1
+!i122 31
+l17
+L15 23
+V<Vh48[mY]dhA_obNS^daY3
+!s100 8jYE<^kDMlf2jbMbl`dFi0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ediv_freq_4
+Z14 w1633447309
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+!i122 4
+R3
+Z17 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/hdl/div_freq_4.vhd
+Z18 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/hdl/div_freq_4.vhd
+l0
+L8 1
+V`L5N9XgAJ1I?PCT>NM8kh0
+!s100 1hLg>7lfZ=f6PRz0W@LM31
+R6
+32
+Z19 !s110 1633447814
+!i10b 1
+Z20 !s108 1633447814.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/hdl/div_freq_4.vhd|
+Z22 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/hdl/div_freq_4.vhd|
+!i113 1
+R11
+R12
+Artl
+R15
+R16
+R1
+R2
+Z23 DEx4 work 10 div_freq_4 0 22 `L5N9XgAJ1I?PCT>NM8kh0
+!i122 4
+l17
+L15 16
+Ve6_?;>kiEfi;4[@99dg<>1
+!s100 9@?6n9WgG=KDadHgc@KJ42
+R6
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R11
+R12
+Ediv_freq_4_tb
+Z24 w1474456503
+R1
+R2
+!i122 16
+R3
+Z25 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/modelsim/div_freq_4_tb.vhd
+Z26 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/modelsim/div_freq_4_tb.vhd
+l0
+L9 1
+VK1dz^leLnGM08nM]k3Ucj0
+!s100 CK5Y5VZV:z3bdUfcI7?de0
+R6
+32
+Z27 !s110 1633645927
+!i10b 1
+Z28 !s108 1633645927.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/modelsim/div_freq_4_tb.vhd|
+Z30 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/modelsim/div_freq_4_tb.vhd|
+!i113 1
+R11
+R12
+Atest
+R15
+R16
+R23
+R1
+R2
+DEx4 work 13 div_freq_4_tb 0 22 K1dz^leLnGM08nM]k3Ucj0
+!i122 16
+l19
+L12 36
+V3b8O2dNckz@FoNne^CVie2
+!s100 mK^^9:J0lVU4Z_b6SKn>H2
+R6
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R11
+R12
+Eoper_reg
+Z31 w1633533525
+R15
+R16
+R1
+R2
+!i122 24
+R3
+Z32 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/hdl/oper_reg.vhd
+Z33 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/hdl/oper_reg.vhd
+l0
+L9 1
+VboU^iEPzD8kHZbOg22_oJ3
+!s100 65h::Q9z7coFhM^aY3H1P1
+R6
+32
+Z34 !s110 1633647498
+!i10b 1
+Z35 !s108 1633647498.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/hdl/oper_reg.vhd|
+Z37 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/hdl/oper_reg.vhd|
+!i113 1
+R11
+R12
+Artl
+R15
+R16
+R1
+R2
+Z38 DEx4 work 8 oper_reg 0 22 boU^iEPzD8kHZbOg22_oJ3
+!i122 24
+l28
+L23 58
+V^Ajzkm>COm8lS<b>FNj2M3
+!s100 llm_m1oOZ^UGRAmVizTSL0
+R6
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R11
+R12
+Eoper_reg_tb
+Z39 w1474456753
+R1
+R2
+!i122 18
+R3
+Z40 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/modelsim/oper_reg_tb.vhd
+Z41 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/modelsim/oper_reg_tb.vhd
+l0
+L9 1
+VDm9HKNW8S@YczG=J2c3K03
+!s100 ^8OLS:a67M8j8e7VS2MPY3
+R6
+32
+Z42 !s110 1633646433
+!i10b 1
+Z43 !s108 1633646432.000000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/modelsim/oper_reg_tb.vhd|
+Z45 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/modelsim/oper_reg_tb.vhd|
+!i113 1
+R11
+R12
+Atest
+R15
+R16
+R38
+R1
+R2
+DEx4 work 11 oper_reg_tb 0 22 Dm9HKNW8S@YczG=J2c3K03
+!i122 18
+l24
+L12 84
+V<GN8oW>1DG><7aHWZb0272
+!s100 :lZWC34;oUicYb2MLXENR2
+R6
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R11
+R12
+Etb_conformador
+Z46 w1633648642
+R1
+R2
+!i122 36
+R3
+Z47 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/modelsim/tb_conformador.vhd
+Z48 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/modelsim/tb_conformador.vhd
+l0
+L10 1
+VC40o9ZH1:bMQOikC<C;g^2
+!s100 <MTG=cbf1lFBl4GNKX0;c0
+R6
+32
+Z49 !s110 1633648651
+!i10b 1
+Z50 !s108 1633648651.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/modelsim/tb_conformador.vhd|
+Z52 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P4/modelsim/tb_conformador.vhd|
+!i113 1
+R11
+R12
+Atest
+R13
+R1
+R2
+Z53 DEx4 work 14 tb_conformador 0 22 C40o9ZH1:bMQOikC<C;g^2
+!i122 36
+l20
+L13 61
+V2dGF1Ho2c6:YbG^5T=08P3
+!s100 9><<kQMm1FG@kjP5YzjbA3
+R6
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R11
+R12

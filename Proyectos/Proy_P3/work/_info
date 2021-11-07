@@ -9,7 +9,7 @@ Edecodbcd7seg
 Z0 w1632250078
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 7
+!i122 24
 Z3 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3
 Z4 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/decodBCD7seg.vhd
 Z5 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/decodBCD7seg.vhd
@@ -19,9 +19,9 @@ V;`S561]@bdD[:ldkJNQS43
 !s100 MRB7?IgjIi_=zzem0gSDm3
 Z6 OV;C;2020.1;71
 32
-Z7 !s110 1632851458
+Z7 !s110 1633443319
 !i10b 1
-Z8 !s108 1632851458.000000
+Z8 !s108 1633443319.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/decodBCD7seg.vhd|
 Z10 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/decodBCD7seg.vhd|
 !i113 1
@@ -31,7 +31,7 @@ Artl
 R1
 R2
 Z13 DEx4 work 12 decodbcd7seg 0 22 ;`S561]@bdD[:ldkJNQS43
-!i122 7
+!i122 24
 l16
 L15 19
 V]JnGIL;5Qd<VWM2YniU:00
@@ -47,96 +47,54 @@ R10
 R11
 R12
 Ereg16b_ena_rst
-Z14 w1632849413
+Z14 w1633446315
 R1
 R2
-!i122 6
+!i122 28
 R3
 Z15 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/reg16b_ena_rst.vhd
 Z16 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/reg16b_ena_rst.vhd
 l0
 L10 1
-Vf1Dl69iR;^_U6kAk3LINQ3
-!s100 UTom_EVRW4O9OK0z[hdVl3
+VNMo6Xdln:=Nn@f_aK;_`^0
+!s100 L@MZJJW7`Voo0]mIUi4ZS3
 R6
 32
-R7
+Z17 !s110 1633446333
 !i10b 1
-Z17 !s108 1632851457.000000
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/reg16b_ena_rst.vhd|
-Z19 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/reg16b_ena_rst.vhd|
+Z18 !s108 1633446333.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/reg16b_ena_rst.vhd|
+Z20 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/reg16b_ena_rst.vhd|
 !i113 1
 R11
 R12
 Artl
 R1
 R2
-Z20 DEx4 work 14 reg16b_ena_rst 0 22 f1Dl69iR;^_U6kAk3LINQ3
-!i122 6
+DEx4 work 14 reg16b_ena_rst 0 22 NMo6Xdln:=Nn@f_aK;_`^0
+!i122 28
 l24
-L23 14
-VLl:z7k8PP;l:eE8VOTZOm0
-!s100 8EDIkf7h7ilAG0FKz^_Ca1
+Z21 L23 17
+Z22 Vo79E?Wj<n]Uf_`eg:X2mi1
+Z23 !s100 N]`O5kdGE^d@R0fHG307n0
 R6
 32
-R7
-!i10b 1
 R17
+!i10b 1
 R18
 R19
-!i113 1
-R11
-R12
-Ereg16b_ena_rst_tb
-Z21 w1632851233
-R1
-R2
-!i122 9
-R3
-Z22 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_reg16b_ena_rst.vhd
-Z23 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_reg16b_ena_rst.vhd
-l0
-L9 1
-VgRK<6JlWBFYJd^5n6zfYf1
-!s100 A^1XJ>XM80DBkf^NXmZU>0
-R6
-32
-R7
-!i10b 1
-R8
-Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_reg16b_ena_rst.vhd|
-Z25 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_reg16b_ena_rst.vhd|
-!i113 1
-R11
-R12
-Atest
 R20
-R1
-R2
-Z26 DEx4 work 17 reg16b_ena_rst_tb 0 22 gRK<6JlWBFYJd^5n6zfYf1
-!i122 9
-l23
-Z27 L13 58
-Z28 VBO^Z1m8dnAOR?PM1nIkBb2
-Z29 !s100 KQkU:OGTc1_9<gECbNZdQ1
-R6
-32
-R7
-!i10b 1
-R8
-R24
-R25
 !i113 1
 R11
 R12
 Etb_decodbcd7seg
-Z30 w1632253012
+Z24 w1632253012
 R1
 R2
-!i122 8
+!i122 25
 R3
-Z31 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_decodbcd7seg.vhd
-Z32 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_decodbcd7seg.vhd
+Z25 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_decodbcd7seg.vhd
+Z26 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_decodbcd7seg.vhd
 l0
 L12 1
 VLZZhl:lBdPE^99KW>ZU`23
@@ -146,8 +104,8 @@ R6
 R7
 !i10b 1
 R8
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_decodbcd7seg.vhd|
-Z34 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_decodbcd7seg.vhd|
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_decodbcd7seg.vhd|
+Z28 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_decodbcd7seg.vhd|
 !i113 1
 R11
 R12
@@ -156,7 +114,7 @@ R13
 R1
 R2
 DEx4 work 15 tb_decodbcd7seg 0 22 LZZhl:lBdPE^99KW>ZU`23
-!i122 8
+!i122 25
 l20
 L15 49
 V@4k1[L[A3z90W16NLOX142
@@ -166,8 +124,50 @@ R6
 R7
 !i10b 1
 R8
+R27
+R28
+!i113 1
+R11
+R12
+Etb_reg16b_ena_rst
+Z29 w1633445888
+R1
+R2
+!i122 27
+R3
+Z30 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_reg16b_ena_rst.vhd
+Z31 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_reg16b_ena_rst.vhd
+l0
+L9 1
+VMkLMG4V<Bel6^gALLY1bK2
+!s100 aO@VBD`nH6_@z[1iE2K;H0
+R6
+32
+Z32 !s110 1633445897
+!i10b 1
+Z33 !s108 1633445897.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_reg16b_ena_rst.vhd|
+Z35 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P3/hdl/tb_reg16b_ena_rst.vhd|
+!i113 1
+R11
+R12
+Atest
+Z36 DEx4 work 14 reg16b_ena_rst 0 22 f1Dl69iR;^_U6kAk3LINQ3
+R1
+R2
+DEx4 work 17 tb_reg16b_ena_rst 0 22 MkLMG4V<Bel6^gALLY1bK2
+!i122 27
+l23
+L13 58
+V8Z5c]Dj00SDI@g;E@Kkfi3
+!s100 o48Y=SXJ=DGzo;kfQ[e812
+R6
+32
+R32
+!i10b 1
 R33
 R34
+R35
 !i113 1
 R11
 R12

@@ -1,0 +1,135 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7
+Eint_thunderbird
+Z0 w1635981219
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 75
+Z3 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P8
+Z4 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P8/hdl/int_thunderbird.vhd
+Z5 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P8/hdl/int_thunderbird.vhd
+l0
+L7 1
+VTL?oRIz@=N8aHbMY][Dke0
+!s100 e0IGWNgF>^W_KN[3gSQVg2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1636244307
+!i10b 1
+Z8 !s108 1636244307.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P8/hdl/int_thunderbird.vhd|
+Z10 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P8/hdl/int_thunderbird.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+DEx4 work 15 int_thunderbird 0 22 TL?oRIz@=N8aHbMY][Dke0
+!i122 75
+l19
+L14 82
+V3ccT[IK6n[Pbo_DZcC3Bb3
+!s100 `kKN>kzY8EZ5eUkHoK^TM1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esecledsshow
+Z13 w1636283227
+R1
+R2
+!i122 81
+R3
+Z14 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P8/hdl/secLEDsShow.vhd
+Z15 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P8/hdl/secLEDsShow.vhd
+l0
+L13 1
+V?4k63_TA3JKA8j;Ilmf9K0
+!s100 41DP1BZ=`Ln;^oD;RE@od2
+R6
+32
+Z16 !s110 1636284940
+!i10b 1
+Z17 !s108 1636284940.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P8/hdl/secLEDsShow.vhd|
+Z19 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P8/hdl/secLEDsShow.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+Z20 DEx4 work 11 secledsshow 0 22 ?4k63_TA3JKA8j;Ilmf9K0
+!i122 81
+l31
+L21 101
+VOe1YP9B1J>g9V6dA3SgYl3
+!s100 FHICUMDH[]GA2=F1mZm1K3
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Etb_secledsshow
+Z21 w1636244801
+R1
+R2
+!i122 80
+R3
+Z22 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P8/hdl/tb_secLEDsShow.vhd
+Z23 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P8/hdl/tb_secLEDsShow.vhd
+l0
+L6 1
+VmV7fOI;UA97G63ZWLf4321
+!s100 Qb6eAcKSY;R^EgP^e_k7M3
+R6
+32
+Z24 !s110 1636244808
+!i10b 1
+Z25 !s108 1636244808.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P8/hdl/tb_secLEDsShow.vhd|
+Z27 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P8/hdl/tb_secLEDsShow.vhd|
+!i113 1
+R11
+R12
+Atest
+R20
+R1
+R2
+DEx4 work 14 tb_secledsshow 0 22 mV7fOI;UA97G63ZWLf4321
+!i122 80
+l19
+L9 97
+VJN?b`8M@WBJ@:Y=A1Yh5Y0
+!s100 Od:K>1PWniE]OBioG?:RL3
+R6
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R11
+R12

@@ -1,0 +1,7 @@
+
+State Machine - |secLEDsShow|automata_state
+Name automata_state.Desp_Izq automata_state.Desp_Der automata_state.Desp_Per_Izq automata_state.Desp_Per_Der 
+automata_state.Desp_Per_Der 0 0 0 0 
+automata_state.Desp_Per_Izq 0 0 1 1 
+automata_state.Desp_Der 0 1 0 1 
+automata_state.Desp_Izq 1 0 0 1 

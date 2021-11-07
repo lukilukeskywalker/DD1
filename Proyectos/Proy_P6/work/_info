@@ -1,0 +1,135 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/lukilukeskywalker/.intelFPGA/20.1/modelsim_ase/bin
+Edet_011
+Z0 w1633695224
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 5
+Z3 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P6
+Z4 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P6/hdl/det_sec_011.vhd
+Z5 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P6/hdl/det_sec_011.vhd
+l0
+L10 1
+VJ]^5;hJ;ThfG:7bJZ1PKM0
+!s100 o`k@NaN<OEbCkF94_GFb?3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1633708684
+!i10b 1
+Z8 !s108 1633708684.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P6/hdl/det_sec_011.vhd|
+Z10 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P6/hdl/det_sec_011.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+DEx4 work 7 det_011 0 22 J]^5;hJ;ThfG:7bJZ1PKM0
+!i122 5
+l19
+L16 27
+Vd[_iQ=XONB@2J^F^GBEAi3
+!s100 n@HE76J3cMLbIG8W??88G2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enum_por_3
+Z13 w1633710624
+R1
+R2
+!i122 12
+R3
+Z14 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P6/num_por_3.vhd
+Z15 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P6/num_por_3.vhd
+l0
+L9 1
+Vdcio^5Y080S8U_WG@REFQ0
+!s100 oFYzJ0`cIlUX0=LPc6Enk0
+R6
+32
+Z16 !s110 1633712843
+!i10b 1
+Z17 !s108 1633712843.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P6/num_por_3.vhd|
+Z19 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P6/num_por_3.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+Z20 DEx4 work 9 num_por_3 0 22 dcio^5Y080S8U_WG@REFQ0
+!i122 12
+l20
+Z21 L16 43
+Z22 VDDc_V3oSl[819R9<a_:<j3
+Z23 !s100 ]SEfVIlDAR4aN8_4GN[k82
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Etb_num_por_3
+Z24 w1633709111
+R1
+R2
+!i122 11
+R3
+Z25 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P6/modelsim/tb_num_por_3.vhd
+Z26 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P6/modelsim/tb_num_por_3.vhd
+l0
+L5 1
+VGnz?6G0?QP3M[VBkal]BN2
+!s100 TYWRHlQbn7HUV3@X:RWWQ2
+R6
+32
+Z27 !s110 1633709116
+!i10b 1
+Z28 !s108 1633709116.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P6/modelsim/tb_num_por_3.vhd|
+Z30 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P6/modelsim/tb_num_por_3.vhd|
+!i113 1
+R11
+R12
+Atest
+R20
+R1
+R2
+DEx4 work 12 tb_num_por_3 0 22 Gnz?6G0?QP3M[VBkal]BN2
+!i122 11
+l15
+L8 54
+V8DBzKWIA2CNBMK0h;n_Pz3
+!s100 EA::HnaUlh1h;=9hK6NQU2
+R6
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R11
+R12

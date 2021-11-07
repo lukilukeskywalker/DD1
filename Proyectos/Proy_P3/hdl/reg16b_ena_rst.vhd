@@ -15,7 +15,7 @@ port(
 	ena: in std_logic;
 	Din: in std_logic_vector(15 downto 0);
 	Dout: buffer std_logic_vector(15 downto 0)
-);
+	);
 end entity;
 
 --Descripcion del sistema.
@@ -26,10 +26,13 @@ begin
 --Modelado del sistema
 	process(clk, nRST)
 	begin
-		if nRST='0' then Dout <=(others=>'0');
+		if nRST='0' then 
+			Dout <=(others=>'0');
 		elsif clk'event and clk='1' then
-			if sRst='1' then Dout<=(others=>'0');
-			elsif ena='1' then Dout<=Din;
+			if sRst='1' then 
+				Dout<=(others=>'0');
+			elsif ena='1' then 
+				Dout<=Din;
 			end if;
 		end if;
 	end process;

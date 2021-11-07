@@ -6,11 +6,11 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity reg16b_ena_rst_TB is
+entity tb_reg16b_ena_rst is
 end entity;
 
 --Declaracion de señales
-architecture Test of reg16b_ena_rst_TB is
+architecture test of tb_reg16b_ena_rst is
 	signal clk: std_logic;
 	signal nRST: std_logic;
 	signal sRst: std_logic;
@@ -22,24 +22,24 @@ architecture Test of reg16b_ena_rst_TB is
 
 begin
 --Emplazamiento del modelo
-dut: entity Work.reg16b_ena_rst(rtl)
+  dut: entity Work.reg16b_ena_rst(rtl)
 	port map(clk => clk,
-		nRST=>nRST,
-		sRst=>sRst,
-		ena=>ena,
-		Din=>Din,
-		Dout=>Dout);
+		nRST => nRst,
+		sRst => sRst,
+		ena => ena,
+		Din => Din,
+		Dout => Dout);
 --Generacion de Reloj
-process
-begin
+  reloj: process
+  begin
 	clk<='0';
 	wait for T_CLK/2;
 	clk<='1';
 	wait for T_CLK/2;
-end process;
+  end process;
 
-process
-begin
+  estimulos: process
+  begin
 	nRST <='0';
 	sRst<='0';
 	ena<='0';
@@ -66,5 +66,5 @@ begin
 
 	wait until clk'event and clk = '1';
 	wait;
-end process;
-end Test;
+  end process;
+end test;

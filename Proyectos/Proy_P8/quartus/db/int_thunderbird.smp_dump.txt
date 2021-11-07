@@ -1,0 +1,11 @@
+
+State Machine - |int_thunderbird|estado
+Name estado.emergencia estado.der_tres estado.der_dos estado.der_uno estado.izq_tres estado.izq_dos estado.izq_uno estado.inicio 
+estado.inicio 0 0 0 0 0 0 0 0 
+estado.izq_uno 0 0 0 0 0 0 1 1 
+estado.izq_dos 0 0 0 0 0 1 0 1 
+estado.izq_tres 0 0 0 0 1 0 0 1 
+estado.der_uno 0 0 0 1 0 0 0 1 
+estado.der_dos 0 0 1 0 0 0 0 1 
+estado.der_tres 0 1 0 0 0 0 0 1 
+estado.emergencia 1 0 0 0 0 0 0 1 

@@ -1,0 +1,15 @@
+# Loading project Proy_P6
+# reading /home/lukilukeskywalker/.intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+file mkdir /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7
+# Loading project Proy_P7
+# Compile of comp_entrada.vhd failed with 3 errors.
+# Compile of comp_entrada.vhd failed with 1 errors.
+# Compile of comp_entrada.vhd was successful.
+# Compile of comp2_val_abs.vhd failed with 1 errors.
+# Compile of comp2_val_abs.vhd was successful.
+# Compile of Num_1s_3ciclos.vhd failed with 1 errors.
+# Compile of Num_1s_3ciclos.vhd failed with 1 errors.
+# Compile of Num_1s_3ciclos.vhd failed with 1 errors.
+# Compile of Num_1s_3ciclos.vhd failed with 1 errors.
+# Compile of Num_1s_3ciclos.vhd failed with 8 errors.
+# Compile of Num_1s_3ciclos.vhd was successful.

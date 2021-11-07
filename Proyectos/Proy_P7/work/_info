@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P6
+Ecomp2_val_abs
+Z0 w1634656498
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+Z3 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7
+Z4 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7/comp2_val_abs.vhd
+Z5 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7/comp2_val_abs.vhd
+l0
+L7 1
+V<Az8Db3<_`MgMNFEO6FGd1
+!s100 QQEJ@HmOJ>XL=M6MnOz3c0
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1634656504
+!i10b 1
+Z8 !s108 1634656504.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7/comp2_val_abs.vhd|
+Z10 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7/comp2_val_abs.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+DEx4 work 13 comp2_val_abs 0 22 <Az8Db3<_`MgMNFEO6FGd1
+!i122 3
+l15
+L14 16
+Vc]V?VW>D<n[dQj4DHLl>J3
+!s100 XLjAcY[G3HN?[X=S7IehQ1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecomp_entrada
+Z13 w1634655606
+R1
+R2
+!i122 2
+R3
+Z14 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7/comp_entrada.vhd
+Z15 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7/comp_entrada.vhd
+l0
+L6 1
+V^LJP`_0FQY=ejL2En7I;B0
+!s100 Uo:O7QYUXP3]00iPiR<Wi0
+R6
+32
+Z16 !s110 1634655612
+!i10b 1
+Z17 !s108 1634655612.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7/comp_entrada.vhd|
+Z19 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7/comp_entrada.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 12 comp_entrada 0 22 ^LJP`_0FQY=ejL2En7I;B0
+!i122 2
+l14
+L13 14
+V5:1S3`F[[lfIGOSm>mFlA0
+!s100 FXi[?N6Q6gD9BaF6oO?m43
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Enum_1s_3ciclos
+Z20 w1634664215
+R1
+R2
+!i122 8
+R3
+Z21 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7/Num_1s_3ciclos.vhd
+Z22 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7/Num_1s_3ciclos.vhd
+l0
+L8 1
+VC9LaS0jnT2`ml8=d7deDh1
+!s100 OYJ@ZLL@I5W2kY75I9KAR1
+R6
+32
+Z23 !s110 1634664223
+!i10b 1
+Z24 !s108 1634664223.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7/Num_1s_3ciclos.vhd|
+!s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7/Num_1s_3ciclos.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 14 num_1s_3ciclos 0 22 C9LaS0jnT2`ml8=d7deDh1
+!i122 8
+l19
+L15 54
+VF^cAJI0Wa2ZMYSN3C=1n^1
+!s100 [BKn<HDIXBM:``hCf:?W;0
+R6
+32
+R23
+!i10b 1
+R24
+R25
+Z26 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P7/Num_1s_3ciclos.vhd|
+!i113 1
+R11
+R12
