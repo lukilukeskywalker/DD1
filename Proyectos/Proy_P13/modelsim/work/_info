@@ -1,0 +1,291 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera_lite/16.0
+Ebanco_16reg_32bits
+Z0 w1637335413
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dI:/DD1/P13/modelsim
+Z4 8I:/DD1/P13/hdl/banco_16reg_32bits.vhd
+Z5 FI:/DD1/P13/hdl/banco_16reg_32bits.vhd
+l0
+L5
+VM;]]C@hm9SNVdJ9FM`7<L1
+!s100 4[jCRlUaLV]V3@h0m<FmF0
+Z6 OV;C;10.4d;61
+32
+Z7 !s110 1637337439
+!i10b 1
+Z8 !s108 1637337439.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|I:/DD1/P13/hdl/banco_16reg_32bits.vhd|
+Z10 !s107 I:/DD1/P13/hdl/banco_16reg_32bits.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Artl
+R1
+R2
+Z13 DEx4 work 18 banco_16reg_32bits 0 22 M;]]C@hm9SNVdJ9FM`7<L1
+l33
+L15
+VHZ63L^ToFaCOk;CGN3]h]1
+!s100 >MY=[4JdEaza44CLNI`n82
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecircuito_completo
+Z14 w1637337277
+R1
+R2
+R3
+Z15 8I:/DD1/P13/modelsim/circuito_completo.vhd
+Z16 FI:/DD1/P13/modelsim/circuito_completo.vhd
+l0
+L5
+VccR`T7iXOfMn[o`<<a_jO3
+!s100 8I7][Pz<HNj4E>FgM:k9f0
+R6
+32
+!s110 1637337440
+!i10b 1
+Z17 !s108 1637337440.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|I:/DD1/P13/modelsim/circuito_completo.vhd|
+Z19 !s107 I:/DD1/P13/modelsim/circuito_completo.vhd|
+!i113 1
+R11
+R12
+Aestructural
+R13
+Z20 DEx4 work 16 selector4x32bits 0 22 Zj??[>jWI?QB6HQ573MGh0
+Z21 DEx4 work 13 decodificador 0 22 aVP1lAHQznlmBb`;A:7jm1
+R1
+R2
+Z22 DEx4 work 17 circuito_completo 0 22 ccR`T7iXOfMn[o`<<a_jO3
+l22
+L15
+V`TJIhz<`?eeETNL:bf2zA0
+!s100 EcV8_i:j^e`bK6a]N3[k01
+R6
+32
+!s110 1637337441
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Edecod
+Z23 w1637336226
+R1
+R2
+R3
+Z24 8I:/DD1/P13/hdl/decodificador.vhd
+Z25 FI:/DD1/P13/hdl/decodificador.vhd
+l0
+L5
+V09ZRe?C_[VgLMi4D029:M3
+!s100 B5OIgzaJEJzmh2e`hX>733
+R6
+32
+Z26 !s110 1637337169
+!i10b 1
+Z27 !s108 1637337168.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|I:/DD1/P13/hdl/decodificador.vhd|
+Z29 !s107 I:/DD1/P13/hdl/decodificador.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 5 decod 0 22 09ZRe?C_[VgLMi4D029:M3
+l16
+L15
+VhVUDG=<z6nSKChII8P51b0
+!s100 nagcRC9glT<ANLkO^ET5S2
+R6
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R11
+R12
+Edecodificador
+Z30 w1637337263
+R1
+R2
+R3
+R24
+R25
+l0
+L5
+VaVP1lAHQznlmBb`;A:7jm1
+!s100 _7_Yk[_Ngh>OKdzD5;c=_3
+R6
+32
+Z31 !s110 1637337443
+!i10b 1
+Z32 !s108 1637337442.000000
+R28
+R29
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+R21
+l16
+L15
+V<FQX[;DAMYdo7CkHc]i9V2
+!s100 LCmiOXGJg8`ZecMkB:>?a0
+R6
+32
+R31
+!i10b 1
+R32
+R28
+R29
+!i113 1
+R11
+R12
+Emultiplex
+Z33 w1637331074
+R1
+R2
+R3
+Z34 8I:/DD1/P13/hdl/selector4x32bits.vhd
+Z35 FI:/DD1/P13/hdl/selector4x32bits.vhd
+l0
+L5
+VjiF:fC4eAPH?eaRoe@3J;2
+!s100 9XYX:Rh>FP7ba4<Zn5iRX2
+R6
+32
+Z36 !s110 1637337418
+!i10b 1
+Z37 !s108 1637337417.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|I:/DD1/P13/hdl/selector4x32bits.vhd|
+Z39 !s107 I:/DD1/P13/hdl/selector4x32bits.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 9 multiplex 0 22 jiF:fC4eAPH?eaRoe@3J;2
+l16
+L15
+VAGWD3JN1Fl:_d^7X>PefH0
+!s100 I2mgG=RfU`HO]4EiWcPO]2
+R6
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R11
+R12
+Eselector4x32bits
+Z40 w1637337425
+R1
+R2
+R3
+R34
+R35
+l0
+L5
+VZj??[>jWI?QB6HQ573MGh0
+!s100 7S@k_:ASFC=Lj03``IWDN1
+R6
+32
+Z41 !s110 1637337442
+!i10b 1
+Z42 !s108 1637337441.000000
+R38
+R39
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+R20
+l16
+L15
+VSJTZ31ogA7EkBKbOJnQXc3
+!s100 []1@o?9H;k=b>d;Q;6FcU0
+R6
+32
+R41
+!i10b 1
+R42
+R38
+R39
+!i113 1
+R11
+R12
+Etb_circuito_completo
+Z43 w1637339442
+Z44 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z45 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+R3
+Z46 8I:/DD1/P13/modelsim/16_reg_32.vhd
+Z47 FI:/DD1/P13/modelsim/16_reg_32.vhd
+l0
+L5
+VhVcI>_C`fWC[5cCKN>;7Q3
+!s100 7iji0<eXg<V7NcKgGUD3F3
+R6
+32
+!s110 1637339443
+!i10b 1
+Z48 !s108 1637339443.000000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|I:/DD1/P13/modelsim/16_reg_32.vhd|
+Z50 !s107 I:/DD1/P13/modelsim/16_reg_32.vhd|
+!i113 1
+R11
+R12
+Atest
+R22
+R44
+R45
+R1
+R2
+DEx4 work 20 tb_circuito_completo 0 22 hVcI>_C`fWC[5cCKN>;7Q3
+l20
+L9
+Ve5QOV2d4Of3n<H4`kUcNz0
+!s100 hnPmi^d<eeE?V8e9a<=8H3
+R6
+32
+!s110 1637339444
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R11
+R12
