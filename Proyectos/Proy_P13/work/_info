@@ -1,0 +1,240 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P9
+Ebanco_16reg_32bits
+Z0 w1637339014
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 12
+Z3 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13
+Z4 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/banco_16reg_32bits.vhd
+Z5 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/banco_16reg_32bits.vhd
+l0
+L5 1
+Vd_SoYfb2@Pa@1VKA4CN8:0
+!s100 4[jCRlUaLV]V3@h0m<FmF0
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1637335868
+!i10b 1
+Z8 !s108 1637335868.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/banco_16reg_32bits.vhd|
+Z10 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/banco_16reg_32bits.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+DEx4 work 18 banco_16reg_32bits 0 22 d_SoYfb2@Pa@1VKA4CN8:0
+!i122 12
+l33
+L15 82
+VG`C?cMo6j2cW:?L2Ho=4A3
+!s100 >MY=[4JdEaza44CLNI`n82
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edecod_2_a_4
+Z13 w1637277423
+R1
+R2
+!i122 6
+R3
+Z14 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/decod_2_a_4.vhd
+Z15 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/decod_2_a_4.vhd
+l0
+L5 1
+VH5RI1QKISP^Q838QKEnza3
+!s100 V=aBTC_gfVOUaGD0i7<Q13
+R6
+32
+Z16 !s110 1637333501
+!i10b 1
+Z17 !s108 1637333501.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/decod_2_a_4.vhd|
+Z19 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/decod_2_a_4.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 11 decod_2_a_4 0 22 H5RI1QKISP^Q838QKEnza3
+!i122 6
+l12
+L11 22
+VG_6<Xih8[KBnaOAE71Sd00
+!s100 bHMD`bE;ke?76jGiFe9OU1
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Emultiplex
+Z20 w1637334674
+R1
+R2
+!i122 11
+R3
+Z21 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/selector4x32bits.vhd
+Z22 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/selector4x32bits.vhd
+l0
+L5 1
+Vmf[mJh[013AZR9MCT;OOR1
+!s100 9XYX:Rh>FP7ba4<Zn5iRX2
+R6
+32
+Z23 !s110 1637334708
+!i10b 1
+Z24 !s108 1637334708.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/selector4x32bits.vhd|
+Z26 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/selector4x32bits.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 9 multiplex 0 22 mf[mJh[013AZR9MCT;OOR1
+!i122 11
+l16
+L15 7
+VBQ[_eanGRgMFYa?lF?nHN1
+!s100 I2mgG=RfU`HO]4EiWcPO]2
+R6
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12
+Ereg8bits
+Z27 w1637278033
+R1
+R2
+!i122 4
+R3
+Z28 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/reg8bits.vhd
+Z29 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/reg8bits.vhd
+l0
+L5 1
+VXlnD>]d:o@_8NDlZlGYF32
+!s100 0ID@7FAO06J?]>Wogf7I[3
+R6
+32
+Z30 !s110 1637333494
+!i10b 1
+Z31 !s108 1637333494.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/reg8bits.vhd|
+Z33 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/reg8bits.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 8 reg8bits 0 22 XlnD>]d:o@_8NDlZlGYF32
+!i122 4
+l14
+L13 13
+V9L]5^=>RE2`>@Ob:A@zIO1
+!s100 Galf@a;LO9U37ROh?HSDk1
+R6
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R11
+R12
+Eselector4x8bits
+Z34 w1637278559
+R1
+R2
+!i122 5
+R3
+Z35 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/selector4x8bits.vhd
+Z36 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/selector4x8bits.vhd
+l0
+L5 1
+VGX;m[:]T[MfRMVCWani3R1
+!s100 HVMmEQj5<1bKVN2F7zeXT3
+R6
+32
+Z37 !s110 1637333497
+!i10b 1
+Z38 !s108 1637333497.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/selector4x8bits.vhd|
+Z40 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/selector4x8bits.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 15 selector4x8bits 0 22 GX;m[:]T[MfRMVCWani3R1
+!i122 5
+l15
+L14 7
+VR4Q]KaUzzeJ`R4Bg9E>0D3
+!s100 <RNEPMEHEgCCJMDjnS4oK3
+R6
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R11
+R12
+Etb_banco_16reg_32bits
+w1637338913
+DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+!i122 20
+R3
+8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/tb_banco_16reg_32bits.vhd
+F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/tb_banco_16reg_32bits.vhd
+l0
+L5 1
+VcfIVo`>EcVVUA>7Bo6zeR3
+!s100 jihBZWO<0L=<T_kKnI:ac3
+R6
+32
+!s110 1637338916
+!i10b 1
+!s108 1637338916.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/tb_banco_16reg_32bits.vhd|
+!s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13/modelsim/tb_banco_16reg_32bits.vhd|
+!i113 1
+R11
+R12
