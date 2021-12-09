@@ -1,0 +1,52 @@
+# Loading project Proy_P15
+vsim work.test_divisor_3
+# vsim work.test_divisor_3 
+# Start time: 17:52:05 on Dec 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.test_divisor_3(test)
+# Loading work.divisor_3(rtl)
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41650 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41650 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41650 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 124950 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 124950 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 124950 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 208250 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 208250 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 208250 ps  Iteration: 1  Instance: /test_divisor_3/dut
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint sim:/test_divisor_3/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41650 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41650 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41650 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 124950 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 124950 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 124950 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 208250 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 208250 ps  Iteration: 1  Instance: /test_divisor_3/dut
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 208250 ps  Iteration: 1  Instance: /test_divisor_3/dut

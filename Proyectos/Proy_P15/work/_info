@@ -1,0 +1,238 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13
+Edivisor_2
+Z0 w1638547985
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 34
+Z5 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15
+Z6 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_2.vhd
+Z7 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_2.vhd
+l0
+L5 1
+VHfR_HT5DZOLZP??ID_beV1
+!s100 I?hk7oY^^Td=:i]8eAl7^0
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1638547991
+!i10b 1
+Z10 !s108 1638547991.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_2.vhd|
+Z12 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_2.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+R4
+Z15 DEx4 work 9 divisor_2 0 22 HfR_HT5DZOLZP??ID_beV1
+!i122 34
+l17
+L12 40
+Ve5Cz3LAShId?>7Ohi>Zb^0
+!s100 F2_YZELfkRNIT7mbk2Fzl2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Edivisor_3
+Z16 w1639007198
+R1
+R2
+R3
+R4
+!i122 46
+R5
+Z17 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_3.vhd
+Z18 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_3.vhd
+l0
+L5 1
+Vi1h2>TnaVhKQ^]_9l;f4N2
+!s100 4kJle4SoILRzdg@8QPQ2A0
+R8
+32
+Z19 !s110 1639007229
+!i10b 1
+Z20 !s108 1639007229.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_3.vhd|
+Z22 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_3.vhd|
+!i113 1
+R13
+R14
+Artl
+R1
+R2
+R3
+R4
+Z23 DEx4 work 9 divisor_3 0 22 i1h2>TnaVhKQ^]_9l;f4N2
+!i122 46
+l17
+L13 54
+VCkLmMg?10Y0^jnA1JO7]72
+!s100 zl<>Z]K8Xfn5eN:]oe90`3
+R8
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R13
+R14
+Edivisores
+Z24 w1608204702
+R1
+R2
+R3
+R4
+!i122 7
+R5
+Z25 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisores.vhd
+Z26 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisores.vhd
+l0
+L5 1
+VjeTTBM]`]e7X:I16<:KCC0
+!s100 FG65PGc<OJK9db2GXlbSR0
+R8
+32
+Z27 !s110 1638539994
+!i10b 1
+Z28 !s108 1638539994.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisores.vhd|
+Z30 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisores.vhd|
+!i113 1
+R13
+R14
+Artl
+R1
+R2
+R3
+R4
+DEx4 work 9 divisores 0 22 jeTTBM]`]e7X:I16<:KCC0
+!i122 7
+l20
+L12 63
+VM96KSF;63d>kBhiiVaN8P3
+!s100 _:2:oZShloRP:kgb:8>F03
+R8
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R13
+R14
+Etest_divisor_2
+Z31 w1638547482
+R1
+R2
+R3
+R4
+!i122 29
+R5
+Z32 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_2.vhd
+Z33 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_2.vhd
+l0
+L5 1
+V_;_Y13^95<zFR8BP`5K8Z1
+!s100 @nkkJB^5obLeOz<I<@cA=1
+R8
+32
+Z34 !s110 1638547857
+!i10b 1
+Z35 !s108 1638547857.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_2.vhd|
+Z37 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_2.vhd|
+!i113 1
+R13
+R14
+Atest
+R15
+R1
+R2
+R3
+R4
+DEx4 work 14 test_divisor_2 0 22 _;_Y13^95<zFR8BP`5K8Z1
+!i122 29
+l21
+Z38 L8 58
+VAb[olC6?^P_c]T[aTFbMT3
+!s100 OZO>1nCl1Z`Yea]5IWHcg0
+R8
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R13
+R14
+Etest_divisor_3
+Z39 w1639005945
+R1
+R2
+R3
+R4
+!i122 43
+R5
+Z40 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_3.vhd
+Z41 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_3.vhd
+l0
+L5 1
+VDOWEg@8zOYOV:A=WlCORn1
+!s100 b7o[X[kTVYZAdV3<CINEL0
+R8
+32
+Z42 !s110 1639006026
+!i10b 1
+Z43 !s108 1639006026.000000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_3.vhd|
+Z45 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_3.vhd|
+!i113 1
+R13
+R14
+Atest
+R23
+R1
+R2
+R3
+R4
+DEx4 work 14 test_divisor_3 0 22 DOWEg@8zOYOV:A=WlCORn1
+!i122 43
+l21
+R38
+V`:f`Zd]WILOBGcOD_>X6F3
+!s100 TRDa5PCIdR<hkVlE_bJ?M2
+R8
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R13
+R14
