@@ -56,9 +56,9 @@ begin
   end_simulation <= true;
   
 end process;
-process(f_out_1)
+process(f_out_2)
 begin
-  if(f_out_1'event and f_out_1 = '1') then f_out<=f_out+1;
+  if(f_out_2'event and f_out_2 = '1') then f_out<=f_out+1;
   end if;
 end process;
 

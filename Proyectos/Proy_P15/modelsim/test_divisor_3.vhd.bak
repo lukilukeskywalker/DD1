@@ -12,10 +12,11 @@ architecture test of test_divisor_3 is
   signal f_div_125: std_logic;
   signal f_div_50: std_logic;
   
+  signal f_out: integer :=0;
   signal end_simulation: boolean := false;
   
   -- modifique la siguiente constante para un reloj de 12 MHz
-  constant T_clk: time := TBD ns;
+  constant T_clk: time := 83.3 ns;
   
 begin
 dut: entity Work.divisor_3(rtl)
@@ -52,12 +53,13 @@ begin
   
   -- Complete el test para que puedan observarse
   -- 5 períodos de reloj ed la salida f_div_50
-  
-  
-  
-  
-  
-  
+  wait until f_out=5;
+  end_simulation <=true;
+end process;
+process(f_div_50)
+begin
+	if(f_div_50'event and f_div_50 = '1') then f_out <=f_out+1;
+	end if;  
 end process;
 
 end test;

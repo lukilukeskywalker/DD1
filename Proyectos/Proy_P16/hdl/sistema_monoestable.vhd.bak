@@ -20,11 +20,12 @@
 
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
 
 entity sistema_monoestable is
 port(clk:      in     std_logic;
      nRst:     in     std_logic;
-     control:  in     std_logic;
+     control:  in     std_logic;	--Si se activa a nivel alto se cambia de disparo simple a disparo
      disparo:  in     std_logic;
      duracion: in     std_logic_vector(11 downto 0);
      ventana:  out    std_logic);
@@ -34,7 +35,7 @@ end entity;
 architecture rtl of sistema_monoestable is
   signal   div_1K: std_logic_vector(9  downto 0);
 --  constant mil:    natural := 1000;  -- Sintesis
-  constant mil:    natural :=  ;  --Simulacion (escalado)
+  constant mil:    natural :=  1000;  --Simulacion (escalado)
   signal   tic_1K: std_logic;
 
   signal unidades:  std_logic_vector(3 downto 0);
@@ -42,9 +43,11 @@ architecture rtl of sistema_monoestable is
   signal centenas:  std_logic_vector(3 downto 0);
   signal fin_pulso: std_logic;
 
-
+  type t_estado is (disparo_simple, disparo_periodico);
   signal estado: t_estado;
   signal disparo_i: std_logic; 
+  
+  signal ena_u: std_logic;
 
 begin
   -- Timer
@@ -54,7 +57,12 @@ begin
       div_1K <= (0 => '1', others => '0');
 
     elsif clk'event and clk = '1' then
-      div_1K <= div_1K + 1;
+	if(tic_1K = '1') then 
+		div_1K <= (0 => '1', others => '0');	--Para reiniciar el contador a 0. Cuando se produce FC, en el siguiente CLK se pone a 1
+	else 
+		div_1K <= div_1K + 1;	--Sino se añade 1 al numero
+	end if;
+      
 
     end if;
   end process;

@@ -10,12 +10,12 @@ z2
 cModel Technology
 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P13
 Edivisor_2
-Z0 w1638547985
+Z0 w1639335329
 Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 34
+!i122 80
 Z5 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15
 Z6 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_2.vhd
 Z7 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_2.vhd
@@ -25,9 +25,9 @@ VHfR_HT5DZOLZP??ID_beV1
 !s100 I?hk7oY^^Td=:i]8eAl7^0
 Z8 OV;C;2020.1;71
 32
-Z9 !s110 1638547991
+Z9 !s110 1639335335
 !i10b 1
-Z10 !s108 1638547991.000000
+Z10 !s108 1639335335.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_2.vhd|
 Z12 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_2.vhd|
 !i113 1
@@ -39,11 +39,11 @@ R2
 R3
 R4
 Z15 DEx4 work 9 divisor_2 0 22 HfR_HT5DZOLZP??ID_beV1
-!i122 34
+!i122 80
 l17
 L12 40
-Ve5Cz3LAShId?>7Ohi>Zb^0
-!s100 F2_YZELfkRNIT7mbk2Fzl2
+VebKo]mc4O]USl`Miz^_nY2
+!s100 YL;zQbSL1;OUREaUlXSHa3
 R8
 32
 R9
@@ -55,12 +55,12 @@ R12
 R13
 R14
 Edivisor_3
-Z16 w1639007198
+Z16 w1639334885
 R1
 R2
 R3
 R4
-!i122 46
+!i122 79
 R5
 Z17 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_3.vhd
 Z18 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_3.vhd
@@ -70,9 +70,9 @@ Vi1h2>TnaVhKQ^]_9l;f4N2
 !s100 4kJle4SoILRzdg@8QPQ2A0
 R8
 32
-Z19 !s110 1639007229
+Z19 !s110 1639334892
 !i10b 1
-Z20 !s108 1639007229.000000
+Z20 !s108 1639334892.000000
 Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_3.vhd|
 Z22 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/hdl/divisor_3.vhd|
 !i113 1
@@ -84,11 +84,11 @@ R2
 R3
 R4
 Z23 DEx4 work 9 divisor_3 0 22 i1h2>TnaVhKQ^]_9l;f4N2
-!i122 46
+!i122 79
 l17
 L13 54
-VCkLmMg?10Y0^jnA1JO7]72
-!s100 zl<>Z]K8Xfn5eN:]oe90`3
+VEn4VGJ4>1LZT_VFeYIjY01
+!s100 1c;LmK8[[DK93T627N5^83
 R8
 32
 R19
@@ -145,12 +145,12 @@ R30
 R13
 R14
 Etest_divisor_2
-Z31 w1638547482
+Z31 w1639335441
 R1
 R2
 R3
 R4
-!i122 29
+!i122 81
 R5
 Z32 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_2.vhd
 Z33 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_2.vhd
@@ -160,9 +160,9 @@ V_;_Y13^95<zFR8BP`5K8Z1
 !s100 @nkkJB^5obLeOz<I<@cA=1
 R8
 32
-Z34 !s110 1638547857
+Z34 !s110 1639335448
 !i10b 1
-Z35 !s108 1638547857.000000
+Z35 !s108 1639335448.000000
 Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_2.vhd|
 Z37 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_2.vhd|
 !i113 1
@@ -174,12 +174,12 @@ R1
 R2
 R3
 R4
-DEx4 work 14 test_divisor_2 0 22 _;_Y13^95<zFR8BP`5K8Z1
-!i122 29
+Z38 DEx4 work 14 test_divisor_2 0 22 _;_Y13^95<zFR8BP`5K8Z1
+!i122 81
 l21
-Z38 L8 58
-VAb[olC6?^P_c]T[aTFbMT3
-!s100 OZO>1nCl1Z`Yea]5IWHcg0
+L8 61
+Vg05I:l`j]99K1kLahAii>3
+!s100 BCi6=Eh;<nFJ1VXCG:hdN2
 R8
 32
 R34
@@ -191,12 +191,12 @@ R37
 R13
 R14
 Etest_divisor_3
-Z39 w1639005945
+Z39 w1639334743
 R1
 R2
 R3
 R4
-!i122 43
+!i122 77
 R5
 Z40 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_3.vhd
 Z41 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_3.vhd
@@ -206,9 +206,9 @@ VDOWEg@8zOYOV:A=WlCORn1
 !s100 b7o[X[kTVYZAdV3<CINEL0
 R8
 32
-Z42 !s110 1639006026
+Z42 !s110 1639334758
 !i10b 1
-Z43 !s108 1639006026.000000
+Z43 !s108 1639334758.000000
 Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_3.vhd|
 Z45 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15/modelsim/test_divisor_3.vhd|
 !i113 1
@@ -221,11 +221,11 @@ R2
 R3
 R4
 DEx4 work 14 test_divisor_3 0 22 DOWEg@8zOYOV:A=WlCORn1
-!i122 43
+!i122 77
 l21
-R38
-V`:f`Zd]WILOBGcOD_>X6F3
-!s100 TRDa5PCIdR<hkVlE_bJ?M2
+L8 60
+VL@37OH:0?Z7BgNf7n4D_h1
+!s100 zcE;A[Xjfc9GQ?^R=>Fi92
 R8
 32
 R42

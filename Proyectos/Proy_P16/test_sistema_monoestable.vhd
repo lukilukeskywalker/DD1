@@ -60,10 +60,13 @@ dut: entity work.sistema_monoestable(rtl)
     nRst <= '1';
     -- Para completar por el estudiante
     
+	--Estado se encuentra en disparo simple. La duracion del pulso es 10.
+	wait until 
+    
     wait until clk'event and clk = '1';
     fin <= true;
     wait;
   end process;
-
+process(
 end test;
 

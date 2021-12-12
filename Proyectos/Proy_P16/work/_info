@@ -10,66 +10,89 @@ z2
 cModel Technology
 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P15
 Esistema_monoestable
-Z0 w1601655554
-Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 0
-Z3 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16
-8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/hdl/sistema_monoestable.vhd
-F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/hdl/sistema_monoestable.vhd
+Z0 w1639159516
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 7
+Z5 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16
+Z6 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/hdl/sistema_monoestable.vhd
+Z7 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/hdl/sistema_monoestable.vhd
 l0
-L24 1
-VP8TDZVMA]=N`ZhoglJfK_2
-!s100 ojUK9H8g26@Lb6N<jBSg[2
-Z4 OV;C;2020.1;71
+L25 1
+V=GWAL2Ve^;AFPL=``_@`b3
+!s100 MRkF4bTA8;04YVnXQeO<P3
+Z8 OV;C;2020.1;71
 32
-!s110 1638543588
+Z9 !s110 1639159523
 !i10b 1
-Z5 !s108 1638543588.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/hdl/sistema_monoestable.vhd|
+Z10 !s108 1639159523.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/hdl/sistema_monoestable.vhd|
 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/hdl/sistema_monoestable.vhd|
 !i113 1
-Z6 o-work work -2002 -explicit
-Z7 tExplicit 1 CvgOpt 0
-Etest_sistema_monoestable
-R0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
 R1
 R2
-!i122 1
 R3
-Z8 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/test_sistema_monoestable.vhd
-Z9 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/test_sistema_monoestable.vhd
+R4
+DEx4 work 19 sistema_monoestable 0 22 =GWAL2Ve^;AFPL=``_@`b3
+!i122 7
+l52
+L35 135
+VcW9>o0BcF;U_FUz`EWB@22
+!s100 A0jkgiXGWk<N<`;CBfL1R2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+Z14 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/hdl/sistema_monoestable.vhd|
+!i113 1
+R12
+R13
+Etest_sistema_monoestable
+Z15 w1601655554
+R3
+R4
+!i122 1
+R5
+Z16 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/test_sistema_monoestable.vhd
+Z17 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/test_sistema_monoestable.vhd
 l0
 L17 1
 VOEUanS3^ZRHX<Y5_:e>[R1
 !s100 Kng9h`^;0Rz?9;=4dmM4]3
-R4
+R8
 32
-Z10 !s110 1638543589
+Z18 !s110 1638543589
 !i10b 1
-R5
-Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/test_sistema_monoestable.vhd|
-!s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/test_sistema_monoestable.vhd|
+Z19 !s108 1638543588.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/test_sistema_monoestable.vhd|
+Z21 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/test_sistema_monoestable.vhd|
 !i113 1
-R6
-R7
+R12
+R13
 Atest
 DEx4 work 19 sistema_monoestable 0 22 P8TDZVMA]=N`ZhoglJfK_2
-R1
-R2
+R3
+R4
 DEx4 work 24 test_sistema_monoestable 0 22 OEUanS3^ZRHX<Y5_:e>[R1
 !i122 1
 l30
 L20 49
 V7M_Wf9VE[PZMRP<o<EA:b2
 !s100 BMcH[kVBXUzR6F>gOgNG?2
-R4
+R8
 32
-R10
+R18
 !i10b 1
-R5
-R11
-Z12 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16/test_sistema_monoestable.vhd|
+R19
+R20
+R21
 !i113 1
-R6
-R7
+R12
+R13

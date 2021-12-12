@@ -18,33 +18,33 @@ begin
 proc_div_mod4: process(nRst, clk)
 begin
   -- Contador modulo 4 con salida de fin de cuenta
-  	if(nRst = '0') then mod4 <= "00";
+  	if(nRst = '0') then mod4 <= (others => '0');
 	elsif(clk'event and clk = '1') then
-		if(mod4="11") then mod4 <= "00";
-		else mod4<=mod4+'1';
+		if(mod4=3) then mod4 <= (others =>'0');
+		else mod4<=mod4+1;
 		end if;
 	end if;
-	--f_out_1 <= '1' when mod4="11" else
-	--	   '0' ;
-	if(mod4="11") then f_out_1 <= '1';
-	else f_out_1<='0';
-	end if;
 end process proc_div_mod4;  
+f_out_1 <= 	'1' when mod4=3 else
+		'0'; 
+
 
   -- Contador módulo 3 con entrada de habilitación y salida
   -- de fin de cuenta (independiente de la entrada de habilitación)
 proc_div_mod3: process(nRst, clk)
 begin
-	if(nRst = '0') then mod3 <= "00";
+	if(nRst = '0') then mod3 <= (others=>'0');
 	elsif(clk'event and clk = '1' and f_out_1 = '1') then 
-		if(mod3="10") then mod3 <= "00";
-		else mod3<=mod3+'1';
+		if(f_out_1 = '1') then 
+			if(mod3=2) then mod3 <=(others =>'0');
+			else mod3<=mod3+1;
+			end if;
 		end if;
 	end if;
-	if(mod3="10") then f_out_2 <= '1';
-	else f_out_2<='0';
-	end if;
 end process proc_div_mod3;
+f_out_2 <= 	'1' when (mod3=2 and f_out_1 = '1') else
+		'0';
+
    
   
             

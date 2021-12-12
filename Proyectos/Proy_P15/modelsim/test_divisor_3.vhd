@@ -56,9 +56,11 @@ begin
   wait until f_out=5;
   end_simulation <=true;
 end process;
-process(f_div_50)
+process(clk)
 begin
-	if(f_div_50'event and f_div_50 = '1') then f_out <=f_out+1;
+	if(clk'event and clk = '1') then 
+		if(f_div_50 = '1') then f_out <= f_out+1;
+		end if;
 	end if;  
 end process;
 

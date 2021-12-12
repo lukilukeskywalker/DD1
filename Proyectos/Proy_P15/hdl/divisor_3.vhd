@@ -21,46 +21,46 @@ begin
 proc_div_mod48: process(nRst, clk)
 begin
 	--contador mod 48 con salida fin de cuenta
-	if(nRst= '0') then cnt_div_250<="000000";
+	if(nRst= '0') then cnt_div_250<= (others => '0');
 	elsif(clk'event and clk = '1') then
-		if(cnt_div_250 = "110000") then cnt_div_250 <= "000000";
-		else cnt_div_250 <= cnt_div_250+'1';
+		if(cnt_div_250 = 47) then cnt_div_250 <= (others => '0');
+		else cnt_div_250 <= cnt_div_250+1;
 		end if;
-		if(cnt_div_250 = "110000") then f_div_250<='1';
-		else f_div_250<='0';
-		end if;
+		
 	end if;
 	
 end process proc_div_mod48; 
+f_div_250 <= '1' when  cnt_div_250 = 47 else '0';
+
 
 proc_div_mod2: process(nRst, clk)
 begin
 	--contador mod 2 con salida fin de cuenta
 	if(nRst='0') then ff_div_125<='0';
-	elsif(clk'event and clk = '1' and f_div_250 = '1') then
-		if(ff_div_125 = '0') then 
-			ff_div_125 <='1';
-			--f_div_125 <='1'; --Como esta colocado ahora hace que el primer pulso salga en el primer ciclo... Si es un contador estaria fallando...
-		else ff_div_125 <='0';
-			f_div_125 <='1'; 
+	elsif(clk'event and clk = '1') then
+		if(f_div_250 = '1') then ff_div_125 <= not ff_div_125;
 		end if;
-	elsif(clk'event and clk = '1') then f_div_125 <='0';
 	end if;
 end process proc_div_mod2;
+f_div_125 <= ff_div_125 and f_div_250;
+
 
 proc_div_mod5: process(nRst, clk)
 begin
 	--contador mod 5 con salida fin de cuenta
-	if(nRst='0') then cnt_div_50<="000";
+	if(nRst='0') then cnt_div_50<= (others => '0');
 	elsif(clk'event and clk = '1' and f_div_250 = '1') then
-		if(cnt_div_50 = "100") then 
-			cnt_div_50 <="000";
-			f_div_50 <='1';
-		else cnt_div_50 <=cnt_div_50+'1';
+		if(f_div_250 = '1') then
+			if(cnt_div_50 = 4) then 
+				cnt_div_50 <= (others => '0');
+			else
+				cnt_div_50 <= cnt_div_50 +1;
+			end if;
 		end if;
-	elsif(clk'event and clk = '1') then f_div_50 <='0';
 	end if;
 end process proc_div_mod5;
+f_div_50 <= 	'1' when (cnt_div_50 = 4 and f_div_250 = '1') else
+		'0';
 
 
 end rtl;
