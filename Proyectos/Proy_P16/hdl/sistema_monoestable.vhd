@@ -68,21 +68,21 @@ begin
   end process;
   tic_1K <= '1' when div_1K = mil else
             '0';
-
+--Este timer de 1000 pulsos sirve para resetear, y que se reinicie la secuencia de pulso periodico
 
   -- Monoestable BCD
   ventana <= '0' when unidades = 0 and decenas = 0 and centenas = 0 else
              '1';
 
-  ena_u <= disparo_i when ventana   = '0' else
+  ena_u <= disparo_i when ventana   = '0' else --Debajo disparo_i es disparo si estado=disparo_simple
            '1'       when fin_pulso = '0' else
            ventana;
 
-  fin_pulso <= '1' when centenas&decenas&unidades > duracion else
+  fin_pulso <= '1' when centenas&decenas&unidades >= duracion else --Primer error¿? Debe producirse fin_pulso cuando la duracion sea igual al dato BCD
                '0';           
 
   -- Contador BCD del monoestable
-  process(clk, nRst)
+cont_unidades:  process(clk, nRst)
   begin
     if nRst = '0' then
       unidades <= "0000";
@@ -101,9 +101,9 @@ begin
         end if;
       end if;
     end if;
-  end process;
+  end process cont_unidades;
 
-  process(clk, nRst)
+cont_decenas: process(clk, nRst)
   begin
     if nRst = '0' then
       decenas <= "0000";
@@ -122,9 +122,9 @@ begin
         end if;
       end if;
     end if;
-  end process;
+  end process cont_decenas;
 
-  process(clk, nRst)
+cont_centenas: process(clk, nRst)
   begin
     if nRst = '0' then
       centenas <= "0000";
@@ -133,16 +133,18 @@ begin
       if fin_pulso = '1' then
         centenas <= "0000";
 
-      elsif decenas = 9 then
-        centenas <= centenas + 1;
+      elsif unidades = 9 then
+		if decenas = 9 then --Tercer error. Cada vez que habia un 9 en las decenas, se añadia una centena. Osea se añadian 10 centenas por decena 
+        		centenas <= centenas + 1;
+		end if;
 
       end if;
     end if;
-  end process;
+  end process cont_centenas;
 
 
 -- Automata
-  process(clk, nRst)
+state_disparo:  process(clk, nRst)
   begin
     if nRst = '0' then
       estado <= disparo_simple;
@@ -161,10 +163,10 @@ begin
         end if;
       end if;
     end if;
-  end process;
+  end process state_disparo;
 
-  disparo_i <= disparo when estado = disparo_simple else
-               '0';
+  disparo_i <= disparo when estado = disparo_simple else --Segundo error?
+               tic_1K; --Se ha cambiado aqui de '0' a tic_1K, que se volvera solo 1, cada 1K pulsos
 
 end rtl;
 
