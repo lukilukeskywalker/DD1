@@ -21,19 +21,23 @@ begin
 	process(clk, nRst)
 	begin
 		if(nRst = '0') then
-			estado <=ini;
+			estado <=fin_operacion;--ini;
 		elsif clk'event and clk = '1' then
 			case estado is
 				when ini =>
-					if start = '1' then 
-						estado <= uno;
-					end if; 
+					--if start = '1' then 
+					--	estado <= uno;
+					--end if; 
+					estado <= uno;
 				when uno =>
 					estado <= dos;
 				when dos =>
 					estado <= fin_operacion;
 				when fin_operacion =>
-					estado <= ini;
+					--estado <= ini;
+					if start = '1' then
+						estado <= ini;
+					end if;
 			end case;
 		end if;
 	end process;
@@ -42,22 +46,22 @@ begin
 	begin
 		case estado is
 			when ini =>
-				dir_digito <= "00";
+				dir_digito <= "11";--dir_digito <= "00";
 				fin_op <='0';
-				ena_acum <= '1';
-				rst_acum <= start;
+				ena_acum <= '1';--'1';
+				rst_acum <= '1';--start;
 			when uno =>
-				dir_digito <= "01";
+				dir_digito <= "10";--dir_digito <= "01";
 				fin_op <= '0';
 				ena_acum <= '1';
 				rst_acum <= '0';
 			when dos =>
-				dir_digito <= "10";
+				dir_digito <= "01";--dir_digito <= "10";
 				fin_op <= '0';
 				ena_acum <= '1';
 				rst_acum <= '0';
 			when fin_operacion =>
-				dir_digito <= "11";
+				dir_digito <= "00";--dir_digito <= "11";
 				fin_op <= '1';
 				ena_acum <= '0';
 				rst_acum <= '0';

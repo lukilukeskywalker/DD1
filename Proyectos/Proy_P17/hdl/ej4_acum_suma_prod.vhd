@@ -8,7 +8,7 @@ entity acum_suma_prod is
 		nRst: in std_logic;
 		rst_acum: in std_logic;
 		ena_acum: in std_logic;
-		acum_in: in std_logic;
+		acum_in: in std_logic_vector(3 downto 0);
 		resultado: buffer std_logic_vector(13 downto 0)
 	);
 end entity;
@@ -19,7 +19,7 @@ architecture rtl of acum_suma_prod is
 begin
 
 resultado <= acum_in +('0'&acum_out&"000") +(acum_out&'0') when rst_acum = '0'
-	else "0000000000"&acum_in;
+	else x"00"&"00"&acum_in;
 
 process(clk, nRst)
 begin
