@@ -1,84 +1,188 @@
 m255
 K3
+z0
+!s11e MIXED_VERSIONS
 13
 cModel Technology
 dC:\altera\13.0sp1
-Eacumulador_moore
-Z0 w1637941400
-Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
-Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
-Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
-Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z5 dC:\Users\lukas.gdanietz.dedie\Desktop\Proy_P14
-Z6 8C:/Users/lukas.gdanietz.dedie/Desktop/Proy_P14/acumulador_moore.vhd
-Z7 FC:/Users/lukas.gdanietz.dedie/Desktop/Proy_P14/acumulador_moore.vhd
+Eacumulador
+Z0 w1641752486
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 10
+Z5 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14
+Z6 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/acumulador.vhd
+Z7 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/acumulador.vhd
 l0
-L6
-V@TbbbF^gn9>W70?8gH<Se3
-Z8 OV;C;10.1d;51
+L6 1
+V;ao^H`6zGiJPo2Q6GD`]80
+!s100 icDL18HndNYYV`1a`FA4C0
+Z8 OV;C;2020.1;71
 32
-Z9 !s108 1637941406.463000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/lukas.gdanietz.dedie/Desktop/Proy_P14/acumulador_moore.vhd|
-Z11 !s107 C:/Users/lukas.gdanietz.dedie/Desktop/Proy_P14/acumulador_moore.vhd|
-Z12 o-work work -2002 -explicit -O0
-Z13 tExplicit 1
-!s100 o_E92FOng84Hj^3SAQN8]3
+Z9 !s110 1641752492
 !i10b 1
+Z10 !s108 1641752492.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/acumulador.vhd|
+Z12 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/acumulador.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
 Artl
 R1
 R2
 R3
 R4
-Z14 DEx4 work 16 acumulador_moore 0 22 @TbbbF^gn9>W70?8gH<Se3
-l18
-L15
-V`bTih`]>AMOZX>e>gR6jQ1
+DEx4 work 10 acumulador 0 22 ;ao^H`6zGiJPo2Q6GD`]80
+!i122 10
+l20
+L16 25
+VPlY;=QlQ^o`XK5>8JZOQc1
+!s100 IDFjVnio80CKd>:9z`_0f1
 R8
 32
 R9
+!i10b 1
 R10
 R11
 R12
+!i113 1
 R13
-!s100 D@NoM?mGFO_IdNmdf=8R13
-!i10b 1
-Etb_acumulador_moore
-Z15 w1637942663
-R1
-R2
-R3
-R4
-R5
-Z16 8C:/Users/lukas.gdanietz.dedie/Desktop/Proy_P14/tb_acumulador_moore.vhd
-Z17 FC:/Users/lukas.gdanietz.dedie/Desktop/Proy_P14/tb_acumulador_moore.vhd
-l0
-L6
-VE=Kh<^c9V]]<5z3[cH96C2
-!s100 ;HN9@2Nm`dflKC^VkacCd2
-R8
-32
-!i10b 1
-Z18 !s108 1637942666.761000
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/lukas.gdanietz.dedie/Desktop/Proy_P14/tb_acumulador_moore.vhd|
-Z20 !s107 C:/Users/lukas.gdanietz.dedie/Desktop/Proy_P14/tb_acumulador_moore.vhd|
-R12
-R13
-Atest
 R14
+Eacumulador_ini_inst
+Z15 w1641751929
 R1
 R2
 R3
 R4
-Z21 DEx4 work 19 tb_acumulador_moore 0 22 E=Kh<^c9V]]<5z3[cH96C2
-l17
-L9
-VEf?ZQT4aYhO79hS=64ITV3
-!s100 7_CS]hifd?o:lY5bA8W?93
+!i122 11
+R5
+Z16 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/acumulador_ini_inst.vhd
+Z17 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/acumulador_ini_inst.vhd
+l0
+L6 1
+V62B3jR::jHPlNCC`]h6a32
+!s100 XW5bc798d`PDo8zgl0kC]0
 R8
 32
+Z18 !s110 1641752497
 !i10b 1
+Z19 !s108 1641752497.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/acumulador_ini_inst.vhd|
+Z21 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/acumulador_ini_inst.vhd|
+!i113 1
+R13
+R14
+Artl
+R1
+R2
+R3
+R4
+Z22 DEx4 work 19 acumulador_ini_inst 0 22 62B3jR::jHPlNCC`]h6a32
+!i122 11
+l21
+Z23 L18 24
+Z24 VS^gjNieV?PU8c3KNkbMUA1
+Z25 !s100 XJ2c8m3mBAAB0zd051FL=0
+R8
+32
 R18
+!i10b 1
 R19
 R20
-R12
+R21
+!i113 1
 R13
+R14
+Eacumulador_moore
+Z26 w1638539702
+R1
+R2
+R3
+R4
+!i122 0
+R5
+Z27 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/acumulador_moore.vhd
+Z28 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/acumulador_moore.vhd
+l0
+L6 1
+V=BB1I:f[HfN1NhaCgB2dE0
+!s100 7gRJb]:YfGW=fEN^Xncbf0
+R8
+32
+Z29 !s110 1641748558
+!i10b 1
+Z30 !s108 1641748558.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/acumulador_moore.vhd|
+Z32 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/acumulador_moore.vhd|
+!i113 1
+R13
+R14
+Artl
+R1
+R2
+R3
+R4
+Z33 DEx4 work 16 acumulador_moore 0 22 =BB1I:f[HfN1NhaCgB2dE0
+!i122 0
+l18
+L15 15
+V9e]Jb@YJ^1fJ4EiW@YKT_1
+!s100 W]AMM=O[b6S3zzUBY3CfY2
+R8
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R13
+R14
+Etb_acumulador_moore
+R26
+R1
+R2
+R3
+R4
+!i122 1
+R5
+Z34 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/tb_acumulador_moore.vhd
+Z35 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/tb_acumulador_moore.vhd
+l0
+L6 1
+V`07OYKe;`c0AeIeXNGl]=2
+!s100 g[4ZfVez<]lmon?WoR5N92
+R8
+32
+Z36 !s110 1641748562
+!i10b 1
+Z37 !s108 1641748562.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/tb_acumulador_moore.vhd|
+Z39 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P14/tb_acumulador_moore.vhd|
+!i113 1
+R13
+R14
+Atest
+R33
+R1
+R2
+R3
+R4
+DEx4 work 19 tb_acumulador_moore 0 22 `07OYKe;`c0AeIeXNGl]=2
+!i122 1
+l17
+L9 44
+V>HDG00Q7ZDN5ZE]?B>3AO0
+!s100 [llXg;MJm8<R1ZLC;WQ[^3
+R8
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R13
+R14
