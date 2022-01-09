@@ -26,8 +26,12 @@ architecture test of test_cronometro is
  signal seg_u_st2 : std_logic_vector(3 downto 0);
  signal seg_d_st2 : std_logic_vector(3 downto 0);
  signal dec_st2   : std_logic_vector(3 downto 0);
+
  constant T_CLK : time := 20 ns;
  signal end_sim : boolean := false;
+
+--Mis propias variables
+
 begin
 
  dut: entity work.cronometro(rtl) port map(
@@ -75,6 +79,31 @@ begin
    wait until clk'event and clk = '1';
    ini_c <= '0';
    -- Para ser completado por los estudiantes
+
+	--Nos dejan desde que inician el cronometro. Supongo que tengo que dejar que pase una vez, y darle otra vez
+	wait until clk'event and clk = '1' and seg_d&seg_u&dec = x"599";
+	wait until clk'event and clk = '1';
+	wait until clk'event and clk = '1';
+	wait until clk'event and clk = '1';
+	wait until clk'event and clk = '1';
+	ini_c <= '1';
+	wait until clk'event and clk = '1';
+	ini_c <= '0';
+	wait until clk'event and clk = '1' and seg_d&seg_u&dec = x"200";
+	sto_1 <= '1';
+	wait until clk'event and clk = '1';
+	sto_1 <= '0';
+	wait until clk'event and clk = '1' and seg_d&seg_u&dec = x"356";
+	sto_2 <= '1';
+	wait until clk'event and clk = '1';
+	sto_2 <= '0';
+	wait until clk'event and clk = '1' and seg_d&seg_u&dec = x"421";
+	sto_1 <= '1';
+	sto_2 <= '1';
+	wait until clk'event and clk = '1';
+	sto_1 <= '0';
+	sto_2 <= '0';
+	
    
    
    

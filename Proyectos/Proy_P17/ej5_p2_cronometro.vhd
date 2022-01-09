@@ -17,6 +17,12 @@ use ieee.std_logic_unsigned.all;
 	--seg_u, seg_d, dec <-Cronometro 
 	--seg_d_st1, seg_u_st1 y dec_st1
 	--seg_d_st2, seg_d_st2 y dec_st2
+
+--OBJETIVO 2 EJERCICIO, O PRIMER EJERCICIO DE DISEÑO
+--seg_d_st2, seg_u_st2 y dec_st2 quedan eliminadas.
+--sto_2 solamente detiene el contador. Una vez se apreta ini_c teniendo el contador en un estado que no sea el inicial, se 
+--reinicia el contador.
+--Se pide que se utilice un unico registro de almacenamiento
 entity cronometro is port(
  clk       : in std_logic;
  rst_n     : in std_logic;
