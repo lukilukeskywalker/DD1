@@ -1,0 +1,101 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P16
+Egen_num_random
+Z0 w1641859045
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+Z5 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Ejemplos
+Z6 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Ejemplos/hdl/generador_num_aleatorios.vhd
+Z7 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Ejemplos/hdl/generador_num_aleatorios.vhd
+l0
+L8 1
+VU6m39iF_ElHAA@j=A[3G;2
+!s100 NYlj8ZW]63Jjknb4>n0DH0
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1641859050
+!i10b 1
+Z10 !s108 1641859050.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Ejemplos/hdl/generador_num_aleatorios.vhd|
+Z12 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Ejemplos/hdl/generador_num_aleatorios.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+R4
+DEx4 work 14 gen_num_random 0 22 U6m39iF_ElHAA@j=A[3G;2
+!i122 1
+l31
+L17 100
+V7M1GoT5Lb7;32>UF5JSUU2
+!s100 MN?1ki1i84N?zB^^j_Bkc0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Esumador_restador_bcd
+Z15 w1641861600
+R1
+R2
+R3
+R4
+!i122 4
+R5
+Z16 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Ejemplos/hdl/sumador_restador_BCD.vhd
+Z17 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Ejemplos/hdl/sumador_restador_BCD.vhd
+l0
+L21 1
+Ve4=4`LWdV2cQU6_944a][1
+!s100 4ZNX7[Q=A8faE]SLc:SQ91
+R8
+32
+Z18 !s110 1641861627
+!i10b 1
+Z19 !s108 1641861627.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Ejemplos/hdl/sumador_restador_BCD.vhd|
+Z21 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Ejemplos/hdl/sumador_restador_BCD.vhd|
+!i113 1
+R13
+R14
+Artl
+R1
+R2
+R3
+R4
+DEx4 work 20 sumador_restador_bcd 0 22 e4=4`LWdV2cQU6_944a][1
+!i122 4
+l34
+L29 16
+Vi=V`f^Bh2L]z[HVDJT8IU2
+!s100 m^GLge2Hnd=@T2goJ@XU=2
+R8
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14
