@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Proy_P17
+Emultiplicador_ab
+Z0 w1657450680
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 14
+Z5 d/home/lukilukeskywalker/Documentos/DD1/Proyectos/Circuitos_Basicos/modelsim
+Z6 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Circuitos_Basicos/hdl/multiplicador_A*B.vhd
+Z7 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Circuitos_Basicos/hdl/multiplicador_A*B.vhd
+l0
+L6 1
+VA@KMGCGdLKm2oaYf3DVUZ3
+!s100 SK2PKSN?6=zZU5RGHaW1<3
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1657450685
+!i10b 1
+Z10 !s108 1657450685.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Circuitos_Basicos/hdl/multiplicador_A*B.vhd|
+Z12 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Circuitos_Basicos/hdl/multiplicador_A*B.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+R4
+Z15 DEx4 work 16 multiplicador_ab 0 22 A@KMGCGdLKm2oaYf3DVUZ3
+!i122 14
+l22
+L13 22
+VJ=AS>80TMV@XlPYBgFiDO1
+!s100 SLPd:a^GYjBIUi@l^=LGK3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Etb_multiplicador_ab
+Z16 w1657449634
+R1
+Z17 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R3
+R4
+!i122 9
+R5
+Z18 8/home/lukilukeskywalker/Documentos/DD1/Proyectos/Circuitos_Basicos/modelsim/tb_multiplicador_A*B.vhd
+Z19 F/home/lukilukeskywalker/Documentos/DD1/Proyectos/Circuitos_Basicos/modelsim/tb_multiplicador_A*B.vhd
+l0
+L6 1
+V5egQ9Q`iWHl>bXTmDG_l61
+!s100 BNMFAhXdPPL`dGC[Se<OG1
+R8
+32
+Z20 !s110 1657449642
+!i10b 1
+Z21 !s108 1657449642.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/lukilukeskywalker/Documentos/DD1/Proyectos/Circuitos_Basicos/modelsim/tb_multiplicador_A*B.vhd|
+Z23 !s107 /home/lukilukeskywalker/Documentos/DD1/Proyectos/Circuitos_Basicos/modelsim/tb_multiplicador_A*B.vhd|
+!i113 1
+R13
+R14
+Atest
+R2
+R15
+R1
+R17
+R3
+R4
+DEx4 work 19 tb_multiplicador_ab 0 22 5egQ9Q`iWHl>bXTmDG_l61
+!i122 9
+l16
+L9 24
+V[1OK?nd7e]zF9b7PSlMYD2
+!s100 DV5QR6SFMJEBLY5lzNY^d3
+R8
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R13
+R14
